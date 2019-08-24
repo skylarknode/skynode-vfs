@@ -12,7 +12,7 @@ const fsp = Promise.promisifyAll(require('fs'));
 
 const  archiver = require('archiver');
 const _ = require('underscore');
-const nfs = require('skynode-nfs')
+const nfs = require('./nfs')
 
 
 

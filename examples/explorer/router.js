@@ -1,12 +1,13 @@
 'use strict';
 
-var p = require('path')
-var util = require('util')
-var Promise = require('bluebird')
-var plugins = require('./lib/plugins.js')
-var routes = require('./routes')
-var middlewares = require('./middlewares')
-var parallelMiddlewares = require('./lib/utils.js').parallelMiddlewares
+var p = require('path');
+var util = require('util');
+var Promise = require('bluebird');
+var plugins = require('./lib/plugins.js');
+var routes = require('./routes');
+var middlewares = require('./middlewares');
+var parallelMiddlewares = require('./lib/utils').parallelMiddlewares;
+
 
 var fs = Promise.promisifyAll(require('fs'));
 var debug = require('debug')('explorer:server');

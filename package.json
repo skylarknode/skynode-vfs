@@ -45,9 +45,9 @@
     "rmdirp": "^0.1.0",
     "session-file-store": "^1.1.2",
     "simplejsonconf": "^1.0.7",
+    "skynode-nfs": "git+https://github.com/skylarknode/skynode-nfs.git#master",
     "unzip-stream": "^0.1.2",
-    "ws": "^3.3.2",
-    "skynode-nfs": "https://github.com/skylarknode/skynode-nfs#master"
+    "ws": "^3.3.2"
   },
   "devDependencies": {
     "glob": "^7.0.5",
@@ -68,7 +68,7 @@
     "rss": "^1.2.2",
     "should": "~1.2.2",
     "sinon": "~1.7.3",
-    "skynode-server": "https://github.com/skylarknode/skynode-server#master",
+    "skynode-server": "git+https://github.com/skylarknode/skynode-server.git#master",
     "tap": "^6.3.2",
     "tap-only": "0.0.5",
     "util": "^0.10.3"
